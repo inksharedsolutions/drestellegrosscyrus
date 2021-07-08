@@ -24,6 +24,9 @@
             font-size: 1em;
         }
     }
+    .active-nav {
+        background: #324B4C;
+    }
 }
 
 
@@ -35,6 +38,9 @@
             position: absolute;
             transform: translate(-25px, 69px);
         }
+    }
+    .active-nav {
+        background: #324B4C;
     }
 }
 
@@ -182,6 +188,9 @@
         align-items: center;
     }
 
+    .active-nav {
+        background: #324B4C;
+    }
 }   
 
 @media screen and (max-width: 650px){
@@ -358,6 +367,17 @@
             }
         }
     }
+    .active-nav {
+        background: #324B4C;
+    }
+
+    .article-section{
+        padding: 0 20px;
+    }
+
+    .author-name{
+        font-size: 1.8rem;
+    }
 }
 
 @media screen and (max-width: 450px){
@@ -417,6 +437,21 @@
         }
     }
 
+    .active-nav {
+        background: #324B4C;
+    }
+
+    .article-section{
+        padding: 0 20px;
+    }
+
+    .author-name{
+        font-size: 1.8rem;
+    }
+
+    .book-container-ft{
+        padding: 0 20px;
+    }
 }
 
 @media screen and (max-width: 350px){
@@ -435,5 +470,8 @@
             font-size: 1.8rem;
         }
     }
-
+    
+    .active-nav {
+        background: #324B4C;
+    }
 }

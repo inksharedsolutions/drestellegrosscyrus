@@ -13,7 +13,7 @@ $prm-font-size : 12px;
 
 .web-banner{
     height: 400px;
-    background: url("../../../static/banner/banner.png");
+    background: linear-gradient(rgba(255, 255, 255, 0.205), #ffffff ),url("../../../static/banner/banner.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,14 +25,14 @@ $prm-font-size : 12px;
         margin-left: 8px;
         text-transform: uppercase;
         line-height: 0;
-        color: #c5c5c5;
+        color: #ffffff !important;
     }
 
     h1{
         font-size: 4em;
         font-weight: 900;
         text-transform: uppercase;
-        color: #ffffff;
+        color: #000;
         margin-bottom: 0.6em;
     }
 }
@@ -133,7 +133,7 @@ $prm-font-size : 12px;
 
     img{
         max-width: 100%;
-        width: 69%;
+        width: 89%;
         padding: 0px;
         border: 29px solid #fff;
         margin:0;
