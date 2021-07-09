@@ -27,6 +27,11 @@
     .active-nav {
         background: #324B4C;
     }
+
+    .commentSection{
+        padding: 35px;
+    }
+
 }
 
 
@@ -42,6 +47,11 @@
     .active-nav {
         background: #324B4C;
     }
+
+    .commentSection{
+        padding: 35px;
+    }
+
 }
 
 // @media screen and ( min-width : 1200px){
@@ -191,6 +201,11 @@
     .active-nav {
         background: #324B4C;
     }
+
+    .commentSection{
+        padding: 35px;
+    }
+
 }   
 
 @media screen and (max-width: 650px){
@@ -378,13 +393,18 @@
     .author-name{
         font-size: 1.8rem;
     }
+
+    .commentSection{
+        padding: 35px;
+    }
+
 }
 
 @media screen and (max-width: 450px){
 
     
     .commentSection{
-        padding: 25px;
+        padding:35px;
     }
 
     .form-newsletter-wrapper{
